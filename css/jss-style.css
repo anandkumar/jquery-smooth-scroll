@@ -1,0 +1,43 @@
+a#scroll-to-top {
+	
+	/* Background image, replace in images folder */
+	background: url(../images/arrow.png) no-repeat center center;
+	
+	/* Match to background image size */
+	width: 35px;
+	height: 35px;
+	
+	/* Postion on the page */
+	position: fixed;	
+	right: 30px;
+	bottom: 30px;
+	
+	/* Hide link text */
+	text-indent: -9999px;
+	font-size: 0;
+	
+	/* Other */
+	cursor: pointer;	
+	outline: 0;
+	
+}
+
+body.rtl a#scroll-to-top {
+	left: 30px;
+}
+
+/* Responsive Design Support */
+@media only screen and (max-width: 480px) {
+	
+	a#scroll-to-top {
+	
+		/* Changing Position */		
+		right: 0;
+		bottom: 0;
+	}
+		
+	body.rtl a#scroll-to-top {
+		left: 0;
+		bottom: 0;
+	}
+}
