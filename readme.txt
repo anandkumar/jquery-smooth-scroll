@@ -22,17 +22,13 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * Easy customization with some css/js code edit.
 * All CSS and JS files are compressed to score high in Google Page Speed score.
 
-Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/) for more information. I will post how to add "jQuery Smooth Slider" to your blog without installing a plugin.
+Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. I will post how to add "jQuery Smooth Slider" to your blog without installing a plugin.
 
 The plugin might not be compatible with a jQuery slider plugin or on safari browsers as many reported on the forums. Please [let me know](http://www.blogsynthesis.com/contact/) about the plugin you are using. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
 
 However, I have checked the plugin is working fine on Firefox, Chrome, IE and Safari for Windows.
 
-http://www.youtube.com/watch?v=2gsdGOPfqF0?t=6s
-
-There is a major javascript change in the version 1.2.0. This version should work on your site even if WordPress Toolbar is enabled.
-
-There is no need to update this time, if you don't want.
+http://www.youtube.com/watch?v=2gsdGOPfqF0
 
 == Installation ==
 
@@ -46,7 +42,7 @@ There is no need to update this time, if you don't want.
 Because there is no such link or menu item. If you need any customization feel free to ask at [www.wpavenue.com/help/](http://j.mp/wpavenue)
 
 = I am looking for PSD file. =
-You may [download the PSD file from here](http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/).
+You may [download the PSD file from here](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/).
 
 = Can I use a custom icon? =
 
@@ -72,27 +68,42 @@ Note: This plugin is based on "Cudazi scroll to top" and "easy smooth scroll lin
 
 == Changelog ==
 
+= 1.3.0 =
+
+* New Feature
+	* Now you may easily customize speed and easing effect
+	
+	
+* Bugfix
+	* Fixed compatibility issue with other plugins.
+
 = 1.2.4 =
+
 * Compatibility check for WordPress 3.7.1
 * Asking for feedback and listing incompatibility.
 * Ask for support here: [WPAvenue community](http://www.wpavenue.com)
 * Minor improvement.
 
 = 1.2.3 =
+
 * Fixed Incompatibility with Hello Bar Plugin.
 * Added Easy Smooth Scroll links script.
 
 = 1.2.0 =
+
 * Major js change
 
 = 1.1.0 =
+
 * Youtube video added
 
 = 1.0.1 =
+
 * Improved readme.txt for WordPress.org plugin library.
 * Initial release at [WordPress.org](http://wordpress.org/extend/plugins/jquery-smooth-scroll/)
 
 = 1.0.0 =
+
 * Initial release at [www.blogsynthesis.com](www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/)
 
 == Upgrade Notice ==

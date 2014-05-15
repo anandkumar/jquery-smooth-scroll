@@ -1,8 +1,9 @@
-/* Smooth Back to Top, Get This functionality from: http://wordpress.org/extend/plugins/cudazi-scroll-to-top/ */
-
 jQuery.noConflict();
 jQuery(function($) {
-	
+ 
+
+// Customize Settings: For more information visit www.blogsynthesis.com/plugins/jquery-smooth-scroll/
+ 
 	// When to show the scroll link
 	// higher number = scroll link appears further down the page	
 	var upperLimit = 100; 
@@ -11,7 +12,16 @@ jQuery(function($) {
 	var scrollElem = $('a#scroll-to-top');
 	
 	// Scroll to top speed
-	var scrollSpeed = 500;
+	var scrollSpeed = 1500;
+	
+	// Choose your easing effect
+	var scrollStyle = 'swing';
+	
+/****************************************************
+ *													*
+ *		JUMP TO ANCHOR LINK SCRIPT START			*
+ *													*
+ ****************************************************/
 	
 	// Show and hide the scroll to top link based on scroll position	
 	scrollElem.hide();
@@ -26,13 +36,55 @@ jQuery(function($) {
 
 	// Scroll to top animation on click
 	$(scrollElem).click(function(){ 
-		$('html, body').animate({scrollTop:0}, scrollSpeed); return false; 
+		$('html, body').animate({scrollTop:0}, scrollSpeed, scrollStyle ); return false; 
 	});
 
-}); 
+/****************************************************
+ *													*
+ *		JUMP TO ANCHOR LINK SCRIPT START			*
+ *													*
+ ****************************************************/
+ 
+  $('a[href*=#]:not([href=#])').click(function() 
+  {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) 
+    {
+      
+      var target = $(this.hash),
+      headerHeight = $(".primary-header").height() + 5; // Get fixed header height
+            
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              
+      if (target.length) 
+      {
+        $('html,body').animate({ scrollTop: target.offset().top }, scrollSpeed, scrollStyle );
+        return false;
+      }
+    }
+  });
+  
+
+/****************************************************
+ *													*
+ *	 FOLLOW BLOGSYNTHESIS.COM FOR WORDPRESS TIPS	*
+ *													*
+ ****************************************************/
+ 
+});
 
 
-/* Smooth Scroll Links, Get This functionality from: http://wordpress.org/extend/plugins/easy-smooth-scroll-links/ */
+/****************************************************
+ *													*
+ *	 			  SCRIPTS ENDS HERE					*
+ *													*
+ ****************************************************/
+ 
+
+/* DEPRECITED SCRIPT - WILL BE REMOVED IN NEXT UPDATE */
+ 
+/* Smooth Scroll Anchor Links */
+/*
 var ss = {
     fixAllLinks: function () {
         var allLinks = document.getElementsByTagName('a');
@@ -79,7 +131,7 @@ var ss = {
         ss.INTERVAL = setInterval('ss.scrollWindow(' + ss_stepsize + ',' + desty + ',"' + anchor + '")', 10);
         if (window.event) {
             window.event.cancelBubble = true;
-            window.event.returnValue = false;
+            e.preventDefault();
         }
         if (e && e.preventDefault && e.stopPropagation) {
             e.preventDefault();
@@ -118,3 +170,5 @@ var ss = {
 }
 ss.STEPS = 25;
 ss.addEvent(window, "load", ss.fixAllLinks);
+
+*/
