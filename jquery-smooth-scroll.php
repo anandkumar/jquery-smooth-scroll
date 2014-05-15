@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: jQuery Smooth Scroll
-Version: 1.2.5
+Version: 1.3.0
 Plugin URI: http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/
 Description: The plugin not only add smooth scroll to top feature/link in the lower-right corner of long pages while scrolling but also makes all jump links to scroll smoothly.
 Author: BlogSynthesis
