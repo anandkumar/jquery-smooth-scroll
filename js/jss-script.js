@@ -11,10 +11,10 @@ jQuery(function($) {
 	// Our scroll link element
 	var scrollElem = $('a#scroll-to-top');
 	
-	// Scroll to top speed
-	var scrollSpeed = 1500;
+	// Scroll Speed. Change the number to change the speed
+	var scrollSpeed = 600;
 	
-	// Choose your easing effect
+	// Choose your easing effect http://jqueryui.com/resources/demos/effect/easing.html
 	var scrollStyle = 'swing';
 	
 /****************************************************

@@ -4,7 +4,7 @@ Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, j
 Author: BlogSynthesis
 Donate link: http://www.blogsynthesis.com/
 Requires at least: 3.1
-Tested up to: 3.7.1
+Tested up to: 3.9.1
 Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -38,18 +38,18 @@ http://www.youtube.com/watch?v=2gsdGOPfqF0
 
 ## Frequently Asked Questions ##
 
-- **Q:** Why I am not able to find any menu link in my WordPress Dashboard?
- **A:** Because there is no such link or menu item. If you need any customization feel free to ask at [www.wpavenue.com/help/](http://j.mp/wpavenue)
+- Why I am not able to find any menu link in my WordPress Dashboard?
+  Because there is no such link or menu item. If you need any customization feel free to ask at [www.wpavenue.com/help/](http://j.mp/wpavenue)
 - I am looking for PSD file.
   You may [download the PSD file from here](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/).
 - Can I use a custom icon?
-Yes, just overwrite the arrow.png image or use the included PSD to tweak.
+  Yes, just overwrite the arrow.png image or use the included PSD to tweak.
 - Can I adjust the point when the icon/link appears? 
-Yes, just edit the upperLimit value in js/jss-script.min.js.
+  Yes, just edit the upperLimit value in js/jss-script.min.js.
 - Why everything looks weird in js and css files?
   Because these files are compressed. I have included reader friendly files i.e. js/jss-script.min.js and css/jss-style.js
 - I don't want to add a plugin. How do I add these functionality without a plugin? 
-Of course you can do this. I will add a blog post about how to do this without any plugin. But remember, you can't get automatic upgrade in this condition. BTW, Follow [BlogSynthesis](http://www.blogsynthesis.com) for any update.
+  Of course you can do this. I will add a blog post about how to do this without any plugin. But remember, you can't get automatic upgrade in this condition. BTW, Follow [BlogSynthesis](http://www.blogsynthesis.com) for any update.
 
 Note: This plugin is based on "Cudazi scroll to top" and "easy smooth scroll links" plugins.
 

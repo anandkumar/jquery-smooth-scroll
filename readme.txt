@@ -4,7 +4,7 @@ Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, j
 Author: BlogSynthesis
 Donate link: http://www.blogsynthesis.com/
 Requires at least: 3.1
-Tested up to: 3.7.1
+Tested up to: 3.9.1
 Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,10 +21,11 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * No unnecessary menu item in WordPress Dashboard.
 * Easy customization with some css/js code edit.
 * All CSS and JS files are compressed to score high in Google Page Speed score.
+* Now change easing effect with the help of jQueruyUI
 
 Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. I will post how to add "jQuery Smooth Slider" to your blog without installing a plugin.
 
-The plugin might not be compatible with a jQuery slider plugin or on safari browsers as many reported on the forums. Please [let me know](http://www.blogsynthesis.com/contact/) about the plugin you are using. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
+The plugin might not be compatible with a jQuery slider plugin or on safari browsers as many reported on the forums. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or in the WordPress support forums here. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
 
 However, I have checked the plugin is working fine on Firefox, Chrome, IE and Safari for Windows.
 
@@ -59,7 +60,7 @@ Because these files are compressed. I have included reader friendly files i.e. j
 = I don't want to add a plugin. How do I add these functionality without a plugin? =
 Of course you can do this. I will add a blog post about how to do this without any plugin. But remember, you can't get automatic upgrade in this condition. BTW, Follow [BlogSynthesis](http://www.blogsynthesis.com) for any update.
 
-Note: This plugin is based on "Cudazi scroll to top" and "easy smooth scroll links" plugins.
+Note: This plugin is based on "Cudazi scroll to top".
 
 == Screenshots ==
 
