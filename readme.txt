@@ -5,7 +5,7 @@ Author: BlogSynthesis
 Donate link: http://www.blogsynthesis.com/
 Requires at least: 3.1
 Tested up to: 3.9.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,10 +22,11 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * Easy customization with some css/js code edit.
 * All CSS and JS files are compressed to score high in Google Page Speed score.
 * Now change easing effect with the help of jQueruyUI
+* Free [Support available here](http://j.mp/wpavenue)
 
-Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. I will post how to add "jQuery Smooth Slider" to your blog without installing a plugin.
+Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. You may also track some [best WordPress Tips](http://www.blogsynthesis.com) on the blog.
 
-The plugin might not be compatible with a jQuery slider plugin or on safari browsers as many reported on the forums. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or in the WordPress support forums here. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
+BTW, The plugin should be now compatible with many plugins. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/BlogSynthesis/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
 
 However, I have checked the plugin is working fine on Firefox, Chrome, IE and Safari for Windows.
 
@@ -69,14 +70,14 @@ Note: This plugin is based on "Cudazi scroll to top".
 
 == Changelog ==
 
+= 1.3.1 =
+* Fixed compatibility issue with OptimizePress Plugin. 
+  (There was a prablem with Live Editor) 
+
 = 1.3.0 =
 
-* New Feature
-	* Now you may easily customize speed and easing effect
-	
-	
-* Bugfix
-	* Fixed compatibility issue with other plugins.
+* Now you may easily customize speed and easing effect
+* Fixed compatibility issue with other plugins.
 
 = 1.2.4 =
 
@@ -93,10 +94,6 @@ Note: This plugin is based on "Cudazi scroll to top".
 = 1.2.0 =
 
 * Major js change
-
-= 1.1.0 =
-
-* Youtube video added
 
 = 1.0.1 =
 

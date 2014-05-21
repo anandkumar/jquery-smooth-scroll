@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: jQuery Smooth Scroll
-Version: 1.3.0
+Version: 1.3.1
 Plugin URI: http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/
 Description: The plugin not only add smooth scroll to top feature/link in the lower-right corner of long pages while scrolling but also makes all jump links to scroll smoothly.
 Author: BlogSynthesis
@@ -25,15 +25,15 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-/************************************************************
- *															*
- *		THERE ARE A FEW THINGS YOU SHOULD MUST KNOW			*
- *				BEFORE EDITING THE PLUGIN					*
- *															*
- *					FOR DETAILS VISIT: 						*
- *			http://www.blogsynthesis.com/?p=860				*
- *															*
- ************************************************************/
+/****************************************************************		
+ *
+ *     THERE ARE A FEW THINGS YOU SHOULD MUST KNOW
+ *               BEFORE EDITING THE PLUGIN	
+ *                                     
+ *                  FOR DETAILS VISIT:
+ *          http://www.blogsynthesis.com/?p=860
+ *								*
+ ****************************************************************/
 	
 // Prevent loading this file directly - Busted!
 if ( ! class_exists( 'WP' ) )
@@ -52,7 +52,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 	
 			$blogsynthesis_jss_plugin_url = trailingslashit ( WP_PLUGIN_URL . '/' . dirname ( plugin_basename ( __FILE__ ) ) );
 			$pluginname = 'jQuery Smooth Scroll';
-			$plugin_version = '1.2.5';
+			$plugin_version = '1.3.1';
 
 			// load plugin Scripts
 			add_action( 'wp_head',  array( &$this, 'wp_head') ); 
@@ -65,17 +65,19 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 		// load our css to the head
 		function wp_head() {
 
-			global $blogsynthesis_jss_plugin_url;
+			if ( !is_admin() ) {
+				global $blogsynthesis_jss_plugin_url;
 
-			// register and enqueue CSS
-			wp_register_style( 'custom_wp_admin_css', plugin_dir_url( __FILE__ ) . 'css/jss-style.min.css', false );
-			wp_enqueue_style( 'custom_wp_admin_css' );
-			
-			// enqueue script
-			wp_enqueue_script( 'script-name',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery') );
-			
-			// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
-			// wp_enqueue_script("jquery-effects-core");
+				// register and enqueue CSS
+				wp_register_style( 'blogsynthesis_jss_css', plugin_dir_url( __FILE__ ) . 'css/jss-style.min.css', false );
+				wp_enqueue_style( 'blogsynthesis_jss_css' );
+				
+				// enqueue script
+				wp_enqueue_script( 'blogsynthesis-jss-script',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery') );
+				
+				// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
+				// wp_enqueue_script("jquery-effects-core");
+			}
 		}
 
 		function wp_footer() {
