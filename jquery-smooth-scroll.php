@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: jQuery Smooth Scroll
-Version: 1.2.5
+Version: 1.3.0
 Plugin URI: http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/
 Description: The plugin not only add smooth scroll to top feature/link in the lower-right corner of long pages while scrolling but also makes all jump links to scroll smoothly.
 Author: BlogSynthesis
@@ -25,6 +25,15 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/****************************************************************		
+ *								*
+ *	THERE ARE A FEW THINGS YOU SHOULD MUST KNOW		*
+ *		BEFORE EDITING THE PLUGIN			*
+ *								*
+ *			FOR DETAILS VISIT: 			*
+ *		http://www.blogsynthesis.com/?p=860		*
+ *								*
+ ****************************************************************/
 	
 // Prevent loading this file directly - Busted!
 if ( ! class_exists( 'WP' ) )
@@ -35,12 +44,14 @@ if ( ! class_exists( 'WP' ) )
 }
 
 
+//	require_once ('include/admin/options.php');								// load admin options
+
 if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 	
 	class jQuerySmoothScroll {
 	
 		function jQuerySmoothScroll() {
-	
+			if ( !is_admin() ) {
 			$blogsynthesis_jss_plugin_url = trailingslashit ( WP_PLUGIN_URL . '/' . dirname ( plugin_basename ( __FILE__ ) ) );
 			$pluginname = 'jQuery Smooth Scroll';
 			$plugin_version = '1.2.5';
@@ -50,6 +61,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 			
 			// add move to top button at wp_footer
 			add_action( 'wp_footer',  array( &$this, 'wp_footer') );
+			}
 
 		}
 
@@ -63,7 +75,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 			wp_enqueue_style( 'custom_wp_admin_css' );
 			
 			// enqueue script
-			wp_enqueue_script( 'script-name',  plugin_dir_url( __FILE__ ) . 'js/jss-script.js', array('jquery') );
+			wp_enqueue_script( 'script-name',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery') );
 			
 			// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
 			// wp_enqueue_script("jquery-effects-core");
