@@ -55,7 +55,9 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 			$plugin_version = '1.3.1';
 
 			// load plugin Scripts
-			add_action( 'wp_head',  array( &$this, 'wp_head') ); 
+			//changed to action 'wp_enqueue_scripts' as its the recommended way to enqueue scripts and styles
+			// see http://codex.wordpress.org/Plugin_API/Action_Reference/wp_enqueue_scripts
+			add_action( 'wp_enqueue_scripts',  array( &$this, 'wp_head') ); 
 			
 			// add move to top button at wp_footer
 			add_action( 'wp_footer',  array( &$this, 'wp_footer') );
@@ -73,6 +75,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				wp_enqueue_style( 'blogsynthesis_jss_css' );
 				
 				// enqueue script
+				wp_enqueue_script('jquery');
 				wp_enqueue_script( 'blogsynthesis-jss-script',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery') );
 				
 				// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
