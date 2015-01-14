@@ -4,8 +4,8 @@ Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, j
 Author: BlogSynthesis
 Donate link: http://www.blogsynthesis.com/
 Requires at least: 3.1
-Tested up to: 3.9.1
-Stable tag: 1.3.1
+Tested up to: 4.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,11 +22,11 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * Easy customization with some css/js code edit.
 * All CSS and JS files are compressed to score high in Google Page Speed score.
 * Now change easing effect with the help of jQueruyUI
-* Free [Support available here](http://j.mp/wpavenue)
+* Free [Support available here](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/)
 
 Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. You may also track some [best WordPress Tips](http://www.blogsynthesis.com) on the blog.
 
-BTW, The plugin should be now compatible with many plugins. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/BlogSynthesis/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [www.wpavenue.com/help/](http://j.mp/wpavenue).
+BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/BlogSynthesis/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [my.blogsynthesis.com/support/](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/).
 
 However, I have checked the plugin is working fine on Firefox, Chrome, IE and Safari for Windows.
 
@@ -41,7 +41,7 @@ http://www.youtube.com/watch?v=2gsdGOPfqF0
 == Frequently Asked Questions ==
 
 = Why I am not able to find any menu link in my WordPress Dashboard? =
-Because there is no such link or menu item. If you need any customization feel free to ask at [www.wpavenue.com/help/](http://j.mp/wpavenue)
+Because there is no such link or menu item. If you need any customization feel free to ask at [www.blogsynthesis.com/support/](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/)
 
 = I am looking for PSD file. =
 You may [download the PSD file from here](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/).
@@ -69,7 +69,10 @@ Note: This plugin is based on "Cudazi scroll to top".
 2. Example usage on dark background
 
 == Changelog ==
-
+= 1.3.2 =
+* Bugfix
+* Compatibility checked with WP 4.0
+  
 = 1.3.1 =
 * Fixed compatibility issue with OptimizePress Plugin. 
   (There was a prablem with Live Editor) 
@@ -83,7 +86,7 @@ Note: This plugin is based on "Cudazi scroll to top".
 
 * Compatibility check for WordPress 3.7.1
 * Asking for feedback and listing incompatibility.
-* Ask for support here: [WPAvenue community](http://www.wpavenue.com)
+* Ask for support here: [BlogSynthesis Support](http://my.blogsynthesis.com/support/)
 * Minor improvement.
 
 = 1.2.3 =
