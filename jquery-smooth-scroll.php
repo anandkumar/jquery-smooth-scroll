@@ -76,7 +76,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				
 				// enqueue script
 				wp_enqueue_script('jquery');
-				wp_enqueue_script( 'blogsynthesis-jss-script',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery') );
+				wp_enqueue_script( 'blogsynthesis-jss-script',  plugin_dir_url( __FILE__ ) . 'js/jss-script.min.js', array('jquery'), true );
 				
 				// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
 				// wp_enqueue_script("jquery-effects-core");
