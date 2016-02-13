@@ -2,14 +2,14 @@
 Contributors: BlogSynthesis
 Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
 Author: BlogSynthesis
-Donate link: http://www.blogsynthesis.com/
+Donate link: http://www.blogsynthesis.com/donate/
 Requires at least: 3.1
-Tested up to: 4.1
-Stable tag: 1.3.2
+Tested up to: 4.4.2
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Smooth scrolling and smooth "back to top" by activate and forget.
+Activate the plugin for smooth scrolling and smooth "back to top" feature.
 
 == Description ==
 
@@ -22,11 +22,16 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * Easy customization with some css/js code edit.
 * All CSS and JS files are compressed to score high in Google Page Speed score.
 * Now change easing effect with the help of jQueruyUI
-* Free [Support available here](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/)
+* Free [Support available here](http://www.blogsynthesis.com/support/)
 
-Visit [BlogSynthesis Plugin Page](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/) for more information. You may also track some [best WordPress Tips](http://www.blogsynthesis.com) on the blog.
+= Important Links: =
+* [**Docs**](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/)
+* [**Support**](http://www.blogsynthesis.com/support/)
+* [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
+* [**Donate link**](http://www.blogsynthesis.com/donate/)
+* [WordPress Tips](http://www.blogsynthesis.com/category/tutorials/)
 
-BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/BlogSynthesis/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [my.blogsynthesis.com/support/](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/).
+BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [www.blogsynthesis.com/support/](http://www.blogsynthesis.com/support/).
 
 However, I have checked the plugin is working fine on Firefox, Chrome, IE and Safari for Windows.
 
@@ -41,7 +46,7 @@ http://www.youtube.com/watch?v=2gsdGOPfqF0
 == Frequently Asked Questions ==
 
 = Why I am not able to find any menu link in my WordPress Dashboard? =
-Because there is no such link or menu item. If you need any customization feel free to ask at [www.blogsynthesis.com/support/](http://my.blogsynthesis.com/forums/forum/plugins/jquery-smooth-scroll-plugin/)
+Because there is no such link or menu item. If you need any customization feel free to ask at [www.blogsynthesis.com/support/](http://www.blogsynthesis.com/support/)
 
 = I am looking for PSD file. =
 You may [download the PSD file from here](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/).
@@ -69,6 +74,11 @@ Note: This plugin is based on "Cudazi scroll to top".
 2. Example usage on dark background
 
 == Changelog ==
+
+= 1.4.0 =
+* Improvement: PHP5 style construct. made the plugin future proof
+* Compatibility checked with WP 4.4.2
+
 = 1.3.2 =
 * Bugfix
 * Compatibility checked with WP 4.0
@@ -86,7 +96,6 @@ Note: This plugin is based on "Cudazi scroll to top".
 
 * Compatibility check for WordPress 3.7.1
 * Asking for feedback and listing incompatibility.
-* Ask for support here: [BlogSynthesis Support](http://my.blogsynthesis.com/support/)
 * Minor improvement.
 
 = 1.2.3 =
@@ -108,4 +117,4 @@ Note: This plugin is based on "Cudazi scroll to top".
 * Initial release at [www.blogsynthesis.com](www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/)
 
 == Upgrade Notice ==
-The current version of jQuery Smooth Scroll requires WordPress 3.1 or higher. If you use older version of WordPress, you need to upgrade WordPress first.
+Any modification made to the plugin files will be gone after upgrade. Please consider backing up before this upgrade. Ask in the [BlogSynthesis forum](http://forums.blogsynthesis.com) any clarification.
