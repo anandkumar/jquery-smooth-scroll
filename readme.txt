@@ -1,7 +1,6 @@
 === jQuery Smooth Scroll ===
-Contributors: BlogSynthesis
+Contributors: BlogSynthesis, anand_kumar, corelibs
 Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
-Author: BlogSynthesis
 Donate link: http://www.blogsynthesis.com/donate/
 Requires at least: 3.1
 Tested up to: 4.4.2
@@ -28,7 +27,7 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * [**Docs**](http://www.blogsynthesis.com/plugins/jquery-smooth-scroll/)
 * [**Support**](http://www.blogsynthesis.com/support/)
 * [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
-* [**Donate link**](http://www.blogsynthesis.com/donate/)
+* [**Donate**](http://www.blogsynthesis.com/donate/)
 * [WordPress Tips](http://www.blogsynthesis.com/category/tutorials/)
 
 BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please [report compatibility issues here](http://www.blogsynthesis.com/contact/) or on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are more than welcome to contribute towards the development of the plugin. For any support ask here: [www.blogsynthesis.com/support/](http://www.blogsynthesis.com/support/).
