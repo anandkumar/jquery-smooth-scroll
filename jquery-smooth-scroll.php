@@ -9,7 +9,7 @@ Author URI: http://www.blogsynthesis.com/
 License: GPL v3
 
 jQuery Smooth Scroll
-Copyright (C) 2013-14, Anand Kumar anand@blogsynthesis.com
+Copyright (C) 2013-16, Anand Kumar <anand@anandkumar.net>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
