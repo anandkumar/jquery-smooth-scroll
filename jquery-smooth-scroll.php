@@ -76,7 +76,11 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				
 				// enqueue script
 				wp_enqueue_script('jquery');
-				wp_enqueue_script( 'jquery-smooth-scroll',  plugin_dir_url( __FILE__ ) . 'js/jss-script.js', array('jquery'),false, true );
+				$extension='.min.js';
+				if( defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
+					$extension='.js';
+				}
+				wp_enqueue_script( 'jquery-smooth-scroll',  plugin_dir_url( __FILE__ ) . 'js/jss-script'.$extension, array('jquery'),false, true );
 				
 				// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
 				// wp_enqueue_script("jquery-effects-core");
