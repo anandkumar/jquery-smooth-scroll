@@ -18,9 +18,9 @@ jQuery(function($) {
 	var scrollStyle = 'swing';
 	
 /****************************************************
- *													*
- *		JUMP TO ANCHOR LINK SCRIPT START			*
- *													*
+ *                                                  *
+ *      JUMP TO ANCHOR LINK SCRIPT START            *
+ *                                                  *
  ****************************************************/
 	
 	// Show and hide the scroll to top link based on scroll position	
@@ -40,12 +40,12 @@ jQuery(function($) {
 	});
 
 /****************************************************
- *													*
- *		JUMP TO ANCHOR LINK SCRIPT START			*
- *													*
+ *                                                  *
+ *      JUMP TO ANCHOR LINK SCRIPT START            *
+ *                                                  *
  ****************************************************/
  
-  $('a[href*=\\#]:not([href=\\#])').click(function() 
+  $('a[href*="#"]:not([href="#"]):not([href^="#tab"])').click(function() 
   {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) 
@@ -66,9 +66,9 @@ jQuery(function($) {
   
 
 /****************************************************
- *													*
- *	 FOLLOW BLOGSYNTHESIS.COM FOR WORDPRESS TIPS	*
- *													*
+ *                                                  *
+ *   FOLLOW BLOGSYNTHESIS.COM FOR WORDPRESS TIPS    *
+ *                                                  *
  ****************************************************/
  
 });
