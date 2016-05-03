@@ -74,6 +74,11 @@ Note: This plugin is based on "Cudazi scroll to top".
 
 == Changelog ==
 
+= 1.4.1 =
+* Improvement: now tab links will be skipped. Should support Woocommerce.
+* jQuery warning fixed.
+* Compatibility checked with WP 4.5
+
 = 1.4.0 =
 * Improvement: PHP5 style construct. made the plugin future proof
 * Compatibility checked with WP 4.4.2
