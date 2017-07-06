@@ -44,8 +44,8 @@ jQuery(function($) {
  *      JUMP TO ANCHOR LINK SCRIPT START            *
  *                                                  *
  ****************************************************/
- 
-  $('a[href*="#"]:not([href="#"]):not([href^="#tab"])').click(function() 
+
+  $('a[href*="#"]:not([href="#"]):not([href^="#tab"]):not([href^="#collapse"])').click(function()
   {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) 
