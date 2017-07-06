@@ -60,7 +60,7 @@ Yes, just edit the upperLimit value in js/jss-script.min.js.
 
 = Why everything looks weird in js and css files? =
 
-Because these files are compressed. I have included reader friendly files i.e. js/jss-script.min.js and css/jss-style.js
+Because these files are compressed. I have included reader friendly files i.e. js/jss-script.js and css/jss-style.css
 
 = I don't want to add a plugin. How do I add these functionality without a plugin? =
 Of course you can do this. I will add a blog post about how to do this without any plugin. But remember, you can't get automatic upgrade in this condition. BTW, Follow [BlogSynthesis](http://www.blogsynthesis.com) for any update.
