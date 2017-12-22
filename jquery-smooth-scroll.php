@@ -40,10 +40,6 @@ if ( ! class_exists( 'WP' ) )
 	exit;
 }
 
-// Add action to enqueue scripts and add footor button.
-add_action( 'wp_enqueue_scripts', 'jquery_smooth_scroll' );
-add_action( 'wp_footer', 'jquery_smooth_scroll_button' );
-
 if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 
 	class jQuerySmoothScroll {
@@ -71,7 +67,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				global $blogsynthesis_jss_plugin_url;
 
 				// register and enqueue CSS
-				wp_register_style( 'jquery-smooth-scroll', plugin_dir_url( __FILE__ ) . 'css/jss-style.css', false );
+				wp_register_style( 'jquery-smooth-scroll', plugin_dir_url( __FILE__ ) . 'css/style.css', false );
 				wp_enqueue_style( 'jquery-smooth-scroll' );
 
 				// enqueue script
@@ -80,7 +76,7 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				if( defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
 					$extension='.js';
 				}
-				wp_enqueue_script( 'jquery-smooth-scroll',  plugin_dir_url( __FILE__ ) . 'js/jss-script'.$extension, array('jquery'),false, true );
+				wp_enqueue_script( 'jquery-smooth-scroll',  plugin_dir_url( __FILE__ ) . 'js/script'.$extension, array('jquery'),false, true );
 
 				// You may now choose easing effect. For more information visit http://www.blogsynthesis.com/?p=860
 				// wp_enqueue_script("jquery-effects-core");
