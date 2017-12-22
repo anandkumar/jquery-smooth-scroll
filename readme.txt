@@ -4,7 +4,7 @@ Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, j
 Donate link: https://digitalliberation.org
 Requires at least: 4.0
 Tested up to: 4.9.1
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,7 +29,7 @@ This plugin makes your anchor text to smooth scroll adds a smooth scroll to top 
 * [Donate](http://www.blogsynthesis.com/donate/)
 * [WordPress Tips](http://www.blogsynthesis.com/category/tutorials/)
 
-BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin. 
+BTW, The plugin might not be now compatible with some plugins. If there are some specific tabs or anchor links we may exclude them mannually. Ask in support forums for help. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
 
 http://www.youtube.com/watch?v=2gsdGOPfqF0
 
@@ -83,10 +83,10 @@ Note: This plugin is based on "Cudazi scroll to top".
 = 1.3.2 =
 * Bugfix
 * Compatibility checked with WP 4.0
-  
+
 = 1.3.1 =
-* Fixed compatibility issue with OptimizePress Plugin. 
-  (There was a prablem with Live Editor) 
+* Fixed compatibility issue with OptimizePress Plugin.
+  (There was a prablem with Live Editor)
 
 = 1.3.0 =
 
