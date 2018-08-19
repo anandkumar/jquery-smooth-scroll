@@ -1,11 +1,11 @@
 === jQuery Smooth Scroll ===
-Contributors: digitalliberation, anand_kumar, BlogSynthesis
+Contributors: digitalliberation, anand_kumar
 Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
 Donate link: https://digitalliberation.org
 Requires at least: 4.0
-Tested up to: 4.9.1
-Stable tag: 1.4.2
-Requires PHP: 5.2.4
+Tested up to: 4.9.8
+Stable tag: 1.4.3
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,12 +25,11 @@ This plugin makes your anchor links to scroll smooth and adds a scroll to top bu
 * Now change easing effect with the help of jQueruyUI
 
 = Important Links: =
-* [**Support**](https://digitalliberation.org/wordpress)
+* [**Support**](https://digitalliberation.org/support/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 * [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
-* [Donate](http://www.blogsynthesis.com/donate/)
-* [WordPress Tips](http://www.blogsynthesis.com/category/tutorials/)
+* [Contribute](https://www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 
-NOTE: The plugin might not be compatible with some plugins. If there are limited number of tabs or anchor links we may exclude them manually. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
+NOTE: The plugin might not be compatible with some other plugins. If there are limited number of tabs or anchor links we may exclude them manually. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
 
 http://www.youtube.com/watch?v=2gsdGOPfqF0
 
@@ -71,6 +70,9 @@ Note: This plugin is based on "Cudazi scroll to top".
 2. Example usage on dark background
 
 == Changelog ==
+
+= 1.4.2 =
+* Compatibility checked with Wordpress 4.9.8
 
 = 1.4.2 =
 * Fix: Removed social media link

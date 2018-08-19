@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: jQuery Smooth Scroll
-Version: 1.4.2
-Plugin URI: http://www.blogsynthesis.com/wordpress-jquery-smooth-scroll-plugin/
+Version: 1.4.3
+Plugin URI: https://www.digitalliberation.org/plugins/jquery-smooth-scroll/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link
 Description: The plugin not only add smooth scroll to top feature/link in the lower-right corner of long pages while scrolling but also makes all jump links to scroll smoothly.
-Author: BlogSynthesis
-Author URI: http://www.blogsynthesis.com/
+Author: digitalliberation
+Author URI: http://digitalliberation.org/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link
 License: GPL v2 or later
 
 jQuery Smooth Scroll
