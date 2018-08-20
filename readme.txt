@@ -4,7 +4,7 @@ Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, j
 Donate link: https://digitalliberation.org
 Requires at least: 4.0
 Tested up to: 4.9.8
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -71,7 +71,10 @@ Note: This plugin is based on "Cudazi scroll to top".
 
 == Changelog ==
 
-= 1.4.2 =
+= 1.4.4 =
+* Renamed file name causing 404.
+
+= 1.4.3 =
 * Compatibility checked with Wordpress 4.9.8
 
 = 1.4.2 =
