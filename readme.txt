@@ -3,7 +3,7 @@ Contributors: digitalliberation, anand_kumar
 Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
 Donate link: https://digitalliberation.org
 Requires at least: 4.0
-Tested up to: 4.9.8
+Tested up to: 5.0
 Stable tag: 1.4.4
 Requires PHP: 5.6
 License: GPLv2 or later
