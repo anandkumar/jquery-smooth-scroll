@@ -1,7 +1,7 @@
 === jQuery Smooth Scroll ===
 Contributors: digitalliberation, anand_kumar
 Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
-Donate link: https://digitalliberation.org
+Donate link: https://www.digitalliberation.org
 Requires at least: 4.0
 Tested up to: 5.0
 Stable tag: 1.4.4
@@ -25,9 +25,9 @@ This plugin makes your anchor links to scroll smooth and adds a scroll to top bu
 * Now change easing effect with the help of jQueruyUI
 
 = Important Links: =
-* [**Support**](https://digitalliberation.org/support/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
+* [**Support**](https://forum.digitalliberation.org/category/9/jquery-smooth-scroll/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 * [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
-* [Contribute](https://www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
+* [Contribute](https://www.www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 
 NOTE: The plugin might not be compatible with some other plugins. If there are limited number of tabs or anchor links we may exclude them manually. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
 
@@ -128,4 +128,4 @@ Note: This plugin is based on "Cudazi scroll to top".
 * Initial release at [blogsynthesis.com](https://www.blogsynthesis.com/plugins/jquery-smooth-scroll/)
 
 == Upgrade Notice ==
-Any modification made to the plugin files will be gone after upgrade. Please consider backing up before this upgrade. [Contact us](https://digitalliberation.org/wordpress) any clarification.
+Any modification made to the plugin files will be gone after upgrade. Please consider backing up before this upgrade. [Contact us](https://www.digitalliberation.org/wordpress) any clarification.
