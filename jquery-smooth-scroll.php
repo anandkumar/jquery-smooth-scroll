@@ -33,8 +33,7 @@ to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 0
  ****************************************************************/
 
 // Prevent loading this file directly - Busted!
-if ( ! class_exists( 'WP' ) )
-{
+if ( ! class_exists( 'WP' ) ) {
 	header( 'Status: 403 Forbidden' );
 	header( 'HTTP/1.1 403 Forbidden' );
 	exit;
@@ -51,12 +50,12 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 			$plugin_version = '1.4.2';
 
 			// load plugin Scripts
-			//changed to action 'wp_enqueue_scripts' as its the recommended way to enqueue scripts and styles
+			// changed to action 'wp_enqueue_scripts' as its the recommended way to enqueue scripts and styles
 			// see http://codex.wordpress.org/Plugin_API/Action_Reference/wp_enqueue_scripts
-			add_action( 'wp_enqueue_scripts',  array( &$this, 'wp_head') );
+			add_action( 'wp_enqueue_scripts',  array( &$this, 'wp_head' ) );
 
 			// add move to top button at wp_footer
-			add_action( 'wp_footer',  array( &$this, 'wp_footer') );
+			add_action( 'wp_footer',  array( &$this, 'wp_footer' ) );
 
 		}
 
@@ -71,10 +70,10 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 				wp_enqueue_style( 'jquery-smooth-scroll' );
 
 				// enqueue script
-				wp_enqueue_script('jquery');
-				$extension='.min.js';
-				if( defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
-					$extension='.js';
+				wp_enqueue_script( 'jquery' );
+				$extension = '.min.js';
+				if( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) {
+					$extension = '.js';
 				}
 				wp_enqueue_script( 'jquery-smooth-scroll',  plugin_dir_url( __FILE__ ) . 'js/script'.$extension, array('jquery'),false, true );
 
@@ -85,12 +84,12 @@ if ( !class_exists( 'jQuerySmoothScroll' ) ) {
 
 		public function wp_footer() {
 			// the html button which will be added to wp_footer ?>
-			<a id="scroll-to-top" href="#" title="<?php _e('Scroll to Top','blogsynthesis'); ?>"><?php _e('Top','blogsynthesis'); ?></a>
+			<a id="scroll-to-top" href="#" title="<?php esc_attr_e( 'Scroll to Top', 'blogsynthesis' ); ?>"><?php esc_html_e( 'Top', 'blogsynthesis' ); ?></a>
 			<?php
 		}
 
 	}
 
-$jQuerySmoothScroll = new jQuerySmoothScroll();
+	$jQuerySmoothScroll = new jQuerySmoothScroll();
 
 }
