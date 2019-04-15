@@ -6,7 +6,7 @@ Requires at least: 4.0
 Tested up to: 5.0
 Stable tag: 1.4.4
 Requires PHP: 5.6
-License: GPLv2 or later
+License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Activate the plugin for smooth scrolling and smooth "back to top" feature.
@@ -27,7 +27,7 @@ This plugin makes your anchor links to scroll smooth and adds a scroll to top bu
 = Important Links: =
 * [**Support**](https://forum.digitalliberation.org/category/9/jquery-smooth-scroll/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 * [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
-* [Contribute](https://www.www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
+* [Contribute](https://www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 
 NOTE: The plugin might not be compatible with some other plugins. If there are limited number of tabs or anchor links we may exclude them manually. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
 
