@@ -52,7 +52,6 @@ jQuery(function($) {
     {
       
       var target = $(this.hash),
-      headerHeight = $(".primary-header").height() + 5; // Get fixed header height
             
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
               
