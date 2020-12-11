@@ -25,7 +25,7 @@ jQuery(function($) {
 	
 	// Show and hide the scroll to top link based on scroll position	
 	scrollElem.hide();
-	$(window).scroll(function () { 			
+	$(window).on('scroll',function () { 			
 		var scrollTop = $(document).scrollTop();		
 		if ( scrollTop > upperLimit ) {
 			$(scrollElem).stop().fadeTo(300, 1); // fade back in			
@@ -35,7 +35,7 @@ jQuery(function($) {
 	});
 
 	// Scroll to top animation on click
-	$(scrollElem).click(function(){ 
+	$(scrollElem).on('click',function(){ 
 		$('html, body').animate({scrollTop:0}, scrollSpeed, scrollStyle ); return false; 
 	});
 
@@ -45,14 +45,13 @@ jQuery(function($) {
  *                                                  *
  ****************************************************/
 
-  $('a[href*="#"]:not([href="#"]):not([href^="#tab"]):not([href^="#collapse"])').click(function()
+  $('a[href*="#"]:not([href="#"]):not([href^="#tab"]):not([href^="#collapse"])').on('click',function()
   {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) 
     {
       
       var target = $(this.hash),
-      headerHeight = $(".primary-header").height() + 5; // Get fixed header height
             
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
               
