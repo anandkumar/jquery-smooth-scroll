@@ -1,10 +1,10 @@
 === jQuery Smooth Scroll ===
-Contributors: digitalliberation, anand_kumar
-Tags: Smooth Scroll, smooth scroll anchor, scroll to top, scroll, back to top, jquery, top of page
-Donate link: https://www.digitalliberation.org
+Contributors: anand_kumar
+Tags: Smooth Scroll, smooth scroll anchor, scroll to top, back to top
+Donate link: https://www.anandkumar.net
 Requires at least: 4.0
-Tested up to: 5.2.2
-Stable tag: 1.4.5
+Tested up to: 6.9
+Stable tag: 1.5.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -25,9 +25,9 @@ This plugin makes your anchor links to scroll smooth and adds a scroll to top bu
 * Now change easing effect with the help of jQueruyUI
 
 = Important Links: =
-* [**Support**](https://forums.digitalliberation.org/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
+* [**Support**](https://wordpress.org/support/plugin/jquery-smooth-scroll/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 * [**Github Repo**](https://github.com/anandkumar/jquery-smooth-scroll)
-* [Contribute](https://www.digitalliberation.org/contribute/?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
+* [Contribute](https://github.com/anandkumar/jquery-smooth-scroll/issues?utm_source=plugin&utm_medium=link&utm_campaign=jss_plugin_link)
 
 NOTE: The plugin might not be compatible with some other plugins. If there are limited number of tabs or anchor links we may exclude them manually. Please report compatibility issue on the [GitHub repository](https://github.com/anandkumar/jquery-smooth-scroll). You are welcomed to contribute towards the development of the plugin.
 
@@ -70,6 +70,14 @@ Note: This plugin is based on "Cudazi scroll to top".
 2. Example usage on dark background
 
 == Changelog ==
+
+= 1.5.0 =
+* Feature: Added custom scroll to top image upload setting.
+* Fix: Security hardening (Added direct file access check).
+* Fix: Added missing version parameters to enqueue calls.
+* Fix: Corrected text domains.
+* Fix: Added sanitization and escaping in admin settings.
+* Tested up to WordPress 6.9.
 
 = 1.4.4 =
 * Fix: Escape localization functions.

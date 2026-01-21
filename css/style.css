@@ -41,3 +41,17 @@ body.rtl a#scroll-to-top {
 		bottom: 10px;
 	}
 }
+
+/* Custom Image Support */
+a#scroll-to-top.custom-image {
+	background: none;
+	width: auto;
+	height: auto;
+	text-indent: 0;
+}
+
+a#scroll-to-top.custom-image img {
+	display: block;
+	max-width: 60px; /* Reasonable default limit */
+	height: auto;
+}

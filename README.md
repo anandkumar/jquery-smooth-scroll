@@ -70,6 +70,14 @@ Because these files are compressed. I have included reader friendly files i.e. j
 
 ## Changelog
 
+### 1.5.0
+* Feature: Added custom scroll to top image upload setting.
+* Fix: Security hardening (Added direct file access check).
+* Fix: Added missing version parameters to enqueue calls.
+* Fix: Corrected text domains.
+* Fix: Added sanitization and escaping in admin settings.
+* Tested up to WordPress 6.9.
+
 ### 1.4.4
 * Renamed file name causing 404.
 
